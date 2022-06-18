@@ -69,8 +69,8 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("🔥 Repo", "https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot")
-    buttons.buildbutton("😎 Channel", "https://t.me/+R2czcPeMkUc1NDI1")
+    buttons.buildbutton("🔥 Developer", "https://t.me/AritraSpeaketh")
+    buttons.buildbutton("😎 Channel", "https://t.me/HoiChoiTvAddaa")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
@@ -176,7 +176,7 @@ help_string_telegraph = f'''<br>
 '''
 
 help = telegraph.create_page(
-        title='😄 𝐒𝐩𝐚𝐫𝐤𝐗𝐜𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐁𝐨𝐭 𝐇𝐞𝐥𝐩 😄',
+        title='😄 উন্মেষ Cloud ☁️ 𝐇𝐞𝐥𝐩 😄',
         content=help_string_telegraph,
     )["path"]
 
